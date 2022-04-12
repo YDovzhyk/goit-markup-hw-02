@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    height: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    width: 1595px;
+    height: 80px;
+    border: 2px solid #ECECEC;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.logo {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    text-decoration: none;
+}
+
+.logo > span {
+    color: #2196f3;
+}
+
+.site-nav ul {
+    position: relative;
+    left: 453px;
+    top: -10px;
+}
+.site-nav li {
+    width: 120px;
+    margin: 0;
+    display: inline-block;
+}
+
+.site-nav a {
+    text-decoration: none;
+}
+
+.footer-contacts{
+    position: relative;
+    left: 1078px;
+    top: -40px;
+}
+.footer-contacts li {
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-contacts a {
+    text-decoration: none;
+}
+
+.first-section {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.first-section h1 {
+    color: white;
+    position: relative;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+
+.first-section button {
+    position: relative;
+    width: 136px;
+    height: 30px;
+    top: 220px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+
+
+
