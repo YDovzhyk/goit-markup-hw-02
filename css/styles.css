@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-
-body {
-    font-family: 'Roboto', sans-serif;
+:root {
+    --additional-color-header: #2196f3;
+    --additional-color-section: #757575;
+    --additional-color-footer: color: rgba(255, 255, 255, 0.6);
 }
 
-.footer {
-    height: 80px;
-    font-family: 'Roboto';
+.page{
+    font-family: 'Raleway';
+}
+
+.addcolor {
+    color: var(--additional-color-header);
+}
+.header {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -18,10 +23,9 @@ body {
     padding-left: 0px;
     padding-right: 0px;
 }
+
 .logo {
     position: relative;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -31,10 +35,7 @@ body {
     left: 215px;
     top: 24px;
     text-decoration: none;
-}
-
-.logo > span {
-    color: #2196f3;
+    color: #212121;
 }
 
 .site-nav ul {
@@ -48,52 +49,73 @@ body {
     display: inline-block;
 }
 
-.site-nav a {
+.header-text-decor {
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     text-decoration: none;
+    font-family: 'Roboto';
 }
 
-.footer-contacts{
+.nav-add-text-decor {
+    color: var(--additional-color-header) ;
+}
+.nav-main-text-decor {
+    color: var(--additional-color-section);
+}
+
+.header-contacts{
     position: relative;
     left: 1078px;
     top: -40px;
 }
-.footer-contacts li {
+.header-contacts li {
     width: 200px;
     margin: 0;
     display: inline-block;
-    text-decoration: none;
 }
 
-.footer-contacts a {
-    text-decoration: none;
-}
 
 .first-section {
     width: 1600px;
     height: 600px;
     background: #2F303A;
-    margin-top: -20px;
-    text-align: center;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-section h1 {
     color: white;
-    position: relative;
     width: 696px;
     height: 120px;
-    left: 452px;
-    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .first-section button {
-    position: relative;
-    width: 136px;
-    height: 30px;
-    top: 220px;
-    background: #2196f3;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #ffffff;
+}
+
+.second-section {
+    
 }
 
 
