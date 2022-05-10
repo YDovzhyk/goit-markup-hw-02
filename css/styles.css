@@ -19,7 +19,6 @@ body {
     font-size: 14px;
     color: var(--text-main-color);
     background-color: var(--bg-main-color);
-    font-style: normal;
 }
 
 .list {
@@ -123,6 +122,7 @@ body {
 }
 .third-section .title {
     font-weight: 500; 
+    font-size: 16px;
 }
 .third-section .text {
     font-weight: 400;
@@ -131,24 +131,30 @@ body {
 /* Footer */
 .footer-section {
     background-color: var(--bg-footer-color);
-    color: var(--text-add-color);
     line-height: 1.714;
     font-weight: 400;
 }
 .footer-section .link{
-    color: inherit;
+    color: var(--text-add-color);
 }
 .footer-section .address {
     text-decoration: none;
     font-style: normal;
-    color: inherit;
+    color: var(--text-add-color);
 }
 .footer-section .contact {
     text-decoration: none;
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-section .logo:hover,
+.footer-section .address:hover,
+.footer-section .contact:hover,
+.footer-section .logo:focus
+.footer-section .address:focus,
+.footer-section .contact:focus {
+    color: var(--text-additional-color);
+}
 /* Portfolio */
 
 /* Botton part */
