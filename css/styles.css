@@ -118,7 +118,6 @@ body {
     background-color: var(--bg-team-color);
     font-size: 16px;
     line-height: 1.187;
-    text-align: center;
 }
 .third-section .title {
     font-weight: 500; 
@@ -147,10 +146,8 @@ body {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-section .logo:hover,
 .footer-section .address:hover,
 .footer-section .contact:hover,
-.footer-section .logo:focus
 .footer-section .address:focus,
 .footer-section .contact:focus {
     color: var(--text-additional-color);
